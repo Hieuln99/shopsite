@@ -1,0 +1,24 @@
+.nav{
+
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgb(148, 69, 246),rgb(103, 194, 230));
+}
+.redtxt{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    margin: auto;
+}
+.greentxt{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1><table style="margin: auto;"><td>Register</td></table></h1>
+    <br>
+<form action="/register" method="POST">
+    <table style="margin: auto;">  
+        <tr>
+            <td>User Name </td> <td><input type="text" name="txtName">
+            </td>
+        </tr>
+        <tr>
+            <td>Password </td> <td><input type="password"name="txtPass">
+            </td>
+        </tr>
+        </table>
+        <table style="margin: auto;">
+            <tr><td><span class="redtxt">{{notice}}</span></td></tr>
+        </table>
+        <table style="margin: auto;">
+        <tr>
+            <td><input type="submit"value="Sign up"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
